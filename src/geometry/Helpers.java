@@ -1,3 +1,5 @@
+package geometry;
+
 public class Helpers {
 
   public static final double EPSILON = 1e-9;
