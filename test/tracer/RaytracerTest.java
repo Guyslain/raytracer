@@ -11,9 +11,9 @@ public class RaytracerTest {
 
   @Test
   public void getColor() {
-    assertEquals(Color.BLUE, raytracer.getColor(0,0));
-    assertEquals(Color.BLUE, raytracer.getColor(10,0));
-    assertEquals(Color.BLUE, raytracer.getColor(0,10));
-    assertEquals(Color.BLUE, raytracer.getColor(42,42));
+    assertEquals(Color.BLACK, raytracer.getColor(0,0));
+    assertEquals(Color.BLACK, raytracer.getColor(10,0));
+    assertEquals(Color.BLACK, raytracer.getColor(0,10));
+    assertEquals(Color.BLACK, raytracer.getColor(42,42));
   }
 }
